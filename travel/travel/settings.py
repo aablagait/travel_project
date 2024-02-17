@@ -31,6 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'homepage.apps.HomepageConfig',
+    'about.apps.AboutConfig',
+    'russia.apps.RussiaConfig',
+    'voronezh.apps.VoronezhConfig',
+    'art.apps.ArtConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
